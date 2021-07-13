@@ -1,10 +1,10 @@
-# ROS-Home Service Robot
+# ROS-Monte Carlo Localization
 
 ## Overview
-Home Service Robot is responsible for picking up virtual objects from a certain location and dropping them off at another location. The project implements SLAM using gmapping package and the 2D map generated from there is used for the primary tasks.
+Here AMCL ROS package is used to implement Adaptive Monte Carlo Localization of a robot in a known environment with a supplied 2D map. The map is generated using the provided pgm_map_creator package. More details on Monte Carlo Localization can be found on ROS wiki for AMCL. Also please check out my project on implementation of MCL using C++.
 
 
-**Keywords:** gmapping, SLAM, localization, turtlebot, ROS
+**Keywords:** AMCL, SLAM, localization, ROS, MCL, Monte Carlo
 
 
 ### License
